@@ -1,0 +1,89 @@
+body, ul, li, h1, h2, a{
+    background-color: #2f3136;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header{
+    background-color: #2f3136;
+    padding: 20px;
+    position: relative;
+}
+.ab-cont{
+    position: absolute;
+    top: 50%;
+    left: 74%;
+}
+header ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header li{
+    width: 50%;
+    display: inline-block;
+    font-size: 24px;
+}
+header li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* main */
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.pic-and-words{
+    text-align: left;
+    margin: 80px 0;
+    position: relative;
+    font-size: 1.1em;
+    /* white-space: nowrap; */
+}
+.pic-and-words .para{
+    position: absolute;
+    color: white;
+}
+.para h1{
+    color: #7bf2d3;
+}
+.para p{
+    line-height: 1.5em;
+}
+.pic-and-words li{
+    display: inline-block;
+    margin: 20px 5%;
+    width: 40%;
+}
+.pic-and-words li img{
+    max-width: 100%;
+}
+
+/* social */
+.social{
+    background-color: #2f3136;
+    padding: 20px;
+}
+.social ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.social li img{
+    width: 20%;
+    display: inline-block;
+}
+
+/* footer */
+footer{
+    background-color: #2f3136;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
