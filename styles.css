@@ -25,7 +25,7 @@ nav {
 .menu-button{
     visibility: hidden;
     position: absolute;
-    left: 85%;
+    left: 300px;
 }
 
 .geekhaven-icon img{
@@ -75,6 +75,7 @@ header img{
 }
 
 .hero-content h1{
+    display: inline-block;
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
@@ -123,9 +124,11 @@ footer p{
 
 /* Responsive */
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 940px) {
     .wrapper{
-        width: 100%;
+        max-width: 100%;
+        width: 360px;
+        margin: 0;
     }
     .menu-button{
         visibility: visible;
@@ -139,16 +142,22 @@ footer p{
     }
     .hero-content{
         position: absolute;
-        width: 662px;
+        width: 350px;
         height: 169px;
         left: 5%;
         top: 410px;
     }
+    .hero-content h1{
+        width: 350px;
+        margin: 0;
+        padding: 0 auto;
+    }
     .hero-content h2{
-        width: 362.31px;
+        width: 350px;
     }
     .hero-content p{
-        width: 361.35px;
+        width: 350px;
+        margin-right: 0;
     }
     .social-icons{
         margin-top: 550px;
