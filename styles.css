@@ -9,7 +9,8 @@ body{
 }
 
 .wrapper{
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -123,6 +124,9 @@ footer p{
 /* Responsive */
 
 @media screen and (max-width: 540px) {
+    .wrapper{
+        width: 100%;
+    }
     .menu-button{
         visibility: visible;
     }
