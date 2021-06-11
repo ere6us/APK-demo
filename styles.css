@@ -139,14 +139,6 @@ nav {
     max-width: 100%;
 }
 
-header ul li img{
-    position: absolute;
-    width: 500px;
-    height: 498px;
-    top: 100px;
-    left: 30%;
-}
-
 .hero-content{
     position: absolute;
     width: 662px;
@@ -184,7 +176,7 @@ header ul li img{
 
 .social-icons{
     text-align: center;
-    margin-top: 650px;
+    margin-top: 0px;
 }
 
 .social-icons a{
